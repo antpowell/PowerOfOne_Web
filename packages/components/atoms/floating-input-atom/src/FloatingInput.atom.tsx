@@ -3,7 +3,6 @@ import React, { FC } from 'react';
 export interface FloatingInputAtomProps {
 	/* Props here */
 	labelText: string;
-	placeHolder?: string;
 	type: 'text' | 'password';
 }
 
