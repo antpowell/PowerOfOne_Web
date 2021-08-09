@@ -12,13 +12,22 @@
 		"create-package": "plop"
 	},
 	"dependencies": {
-		"next": "11.0.1",
+		"@babel/runtime": "^7.14.8",
+		"next": "^11.0.1",
 		"plop": "^2.7.4",
 		"react": "17.0.2",
-		"react-dom": "17.0.2"
+		"react-dom": "17.0.2",
+		"tslib": "^2.3.0"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.15.0",
+		"@babel/plugin-proposal-class-properties": "^7.14.5",
+		"@babel/plugin-proposal-object-rest-spread": "^7.14.7",
+		"@babel/plugin-transform-runtime": "^7.15.0",
+		"@babel/preset-env": "^7.15.0",
+		"@babel/preset-react": "^7.14.5",
+		"@babel/preset-typescript": "^7.15.0",
+		"@storybook/addon-a11y": "^6.3.6",
 		"@storybook/addon-actions": "^6.3.6",
 		"@storybook/addon-essentials": "^6.3.6",
 		"@storybook/addon-links": "^6.3.6",

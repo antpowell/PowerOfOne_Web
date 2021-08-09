@@ -22,4 +22,7 @@ export const Base = Template.bind({});
 
 Base.args = {
 	/* agrs go here */
+	labelText: 'Name',
+	placeHolder: 'Please enter your name',
+	type: 'text',
 };
