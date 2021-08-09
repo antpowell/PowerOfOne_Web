@@ -1,9 +1,9 @@
 import { NodePlopAPI } from 'plop';
 
 import {
-    componentGenerator,
-    controllerGenerator,
-    serviceGenerator,
+	componentGenerator,
+	controllerGenerator,
+	serviceGenerator,
 } from './plop/generators';
 
 const packageSetup = (plop: NodePlopAPI): void => {
